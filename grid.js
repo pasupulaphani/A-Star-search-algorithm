@@ -21,7 +21,7 @@ Grid.prototype = {
 			// had to do this work around just because console.log prints newline
 			var line = '';
 			for (var j = 0; j < this.size; j++) {
-				line = line + ' ' + this.grid[i][j].state();// + '(' + this.grid[i][j].getFScore() + ')'
+				line = line + '  ' + this.grid[i][j].state();// + '(' + this.grid[i][j].getFScore() + ')'
 			};
 			console.log(line)
 		};

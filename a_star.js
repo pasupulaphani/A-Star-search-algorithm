@@ -105,6 +105,7 @@ function findPath(grid) {
 
 
 var init = function (size, start_cell, end_cell, wall_cells) {
+
 	var grid = new Grid(size)
 	grid.setStart(start_cell[0], start_cell[1])
 	grid.setEnd(end_cell[0], end_cell[1])
@@ -122,6 +123,13 @@ var init = function (size, start_cell, end_cell, wall_cells) {
 var size = 6;
 var start_cell = [2, 1]
 var end_cell   = [5, 4]
-var wall_cells = [[4, 1],[2, 3],[3, 3],[4, 3],[5, 3]]
+var wall_cells = [[4, 1],[2, 3],[4, 3],[5, 3]]
+
+console.log("Representation :")
+console.log("Walkable node    : .")
+console.log("Un-walkable node : X")
+console.log("Start node       : S")
+console.log("End node         : E")
+console.log("Path node        : *")
 
 init(size, start_cell, end_cell, wall_cells)
