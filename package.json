@@ -1,0 +1,27 @@
+{
+  "name": "a_star",
+  "version": "0.0.0",
+  "description": "algo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pasupulaphani/A-Star-search-algorithm.git"
+  },
+  "keywords": [
+    "astar",
+    "pathfinding",
+    "algo"
+  ],
+  "author": "phaninder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pasupulaphani/A-Star-search-algorithm/issues"
+  },
+  "homepage": "https://github.com/pasupulaphani/A-Star-search-algorithm",
+  "dependencies": {
+    "underscore": "^1.6.0"
+  }
+}
