@@ -4,8 +4,9 @@ A-Star-search-algorithm
 This is a simple nodeJs implementation of A* algorithm
 
 Find the [rhino](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/JavaScript_Compiler) compatible version under rhino branch
--------------------------
-######Below is the result for 
+
+-----------------------
+###### Consider the following data set 
 > - Grid size         = 6
 > - start node        = [2, 1]
 > - end node          = [5, 4]
