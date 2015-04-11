@@ -31,3 +31,5 @@ Cell.prototype = {
 		return (this.x === cell.x & this.y === cell.y)
 	}
 }
+
+module.exports = Cell;

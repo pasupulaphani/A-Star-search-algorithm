@@ -1,7 +1,7 @@
 // this is for Rhino print command, comment out before using in browser.
-load('./console.js')
+// require('./console.js')
 
-load('./grid.js')
+var Grid = require('./grid.js')
 
 
 var getNeighbours = function (x, y) {

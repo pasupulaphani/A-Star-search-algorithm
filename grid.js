@@ -1,6 +1,6 @@
 /*
 */
-load('./cell.js')
+var Cell = require('./cell.js')
 
 function Grid (size) {
 	this.size = size;
@@ -90,4 +90,4 @@ Grid.prototype = {
 	}
 }
 
-
+module.exports = Grid;
