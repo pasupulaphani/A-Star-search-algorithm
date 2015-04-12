@@ -9,17 +9,16 @@ html {
     height: 100%;
     margin: 0 auto;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    color: #ffffff;
 }
 
-a {
+/*a {
     text-decoration: none;
     color: #00aed1;
 }
 
 a:hover {
     text-decoration: underline;
-}
+}*/
 
 .newappIcon {
     padding-top: 10%;
@@ -29,10 +28,10 @@ a:hover {
     max-width: 200px;
 }
 
-h1 {
+/*h1 {
     font-weight: bold;
     font-size: 2em;
-}
+}*/
 
 .leftHalf {
     float: left;
