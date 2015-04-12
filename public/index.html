@@ -17,9 +17,9 @@
 <body>
 
 <div class="container">
-    <div class="row">
+    
         <img class="img-responsive center-block newappIcon" src="images/logo.jpg"/>
-    </div>
+
      
     <div class="panel panel-default">
               
@@ -27,35 +27,38 @@
          
             <h1>Path Finder</h1>
    
-            <p>Find your path through
+           Find your path through
                 <span class="blue">A*</span> algorithm.
-            </p>
+            
 
     <div class="row">
         
         <div class="col-xs-6">
           <h3>API</h3>
+            <div class="row">
+            <div class="col-md-6">
             <code>
-            
-           <End point : /path/a-star</p>
-            
-           <div>params : </div>
-                <p>size  : Integer</p>
-                <div>start : String (numbers concatinated by `,`)</div>
-                <div>end   : String (numbers concatinated by `,`)</div>
-                <div>wall  : String (numbers concatinated by `,` and `|`)</div>
-
-
-
-
-            Example : /path/a-star?size=10&start=4,1&end=6,7&wall=4,4|5,4|6,4
-            
+            End point : /path/a-star
+            </p>
+            <p>params : </p>
+                <div class="col-md-12 col-md-offset-2">size  : Integer</p>
+                    <p>start : String (numbers concatinated by `,`)</p>
+                    <p>end   : String (numbers concatinated by `,`)</p>
+                    <p>wall  : String (numbers concatinated by `,` and `|`)
+                </div>
+            </p>
+            Example : /path/a-star?size=10&start=4,1&end=6,7&wall=4,4|5,4|6,4</code>
+            </div>
+        </div>
             </code></p>
-       <div class="container">
+       <!-- <div class="container">
         <p>
         </p>
-        </div>
+        </div> -->
             <a href="/path/a-star?size=10&start=4,1&end=6,7&wall=4,4|5,4|6,4" target="_blank" class="btn btn-info" role="button">Try now</a>
+
+        
+       
         </div>
 
         <div id="demo" class="col-xs-6">
@@ -64,7 +67,8 @@
     
               <button id="find-path" class="btn btn-info" onclick="drawPath()">Find Path</button>
           <br />
-            <script src="js/pathfinder.js"></script>
+            <script src="js/pathfinder.js"></script></p>
+            <img src="images/bluemix_logo.png">
         </div>
     </div>
 
