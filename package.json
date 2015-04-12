@@ -4,6 +4,7 @@
   "description": "a star pathfinding algo",
   "main": "index.js",
   "scripts": {
+	"start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/pasupulaphani/A-Star-search-algorithm",
   "dependencies": {
-    "underscore": "^1.6.0"
+    "underscore": "^1.6.0",
+	"express": "4.12.x",
+	"cfenv": "1.0.x"
   }
 }
