@@ -6,20 +6,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.min.css'>
-    <link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap-theme.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css'>
     <link rel="stylesheet" href="stylesheets/style.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
 <div class="container">
-    <div class="row">
+    
         <img class="img-responsive center-block newappIcon" src="images/logo.jpg"/>
-    </div>
+
      
     <div class="panel panel-default">
               
@@ -27,42 +27,40 @@
          
             <h1>Path Finder</h1>
    
-            <p>Find your path through
+           Find your path through
                 <span class="blue">A*</span> algorithm.
-            </p>
+            
 
     <div class="row">
         
         <div class="col-xs-6">
           <h3>API</h3>
+            <div class="row">
+            <div class="col-md-6">
             <code>
-            
-           <End point : /path/a-star</p>
-            
-           <div>params : </div>
-                <p>size  : Integer</p>
-                <div>start : String (numbers concatinated by `,`)</div>
-                <div>end   : String (numbers concatinated by `,`)</div>
-                <div>wall  : String (numbers concatinated by `,` and `|`)</div>
-
-
-
-
-            Example : /path/a-star?size=10&start=4,1&end=6,7&wall=4,4|5,4|6,4
-            
+            End point : /path/a-star
+            </p>
+            <p>params : </p>
+                <div class="col-md-12 col-md-offset-2">size  : Integer</p>
+                    <p>start : String (numbers concatinated by `,`)</p>
+                    <p>end   : String (numbers concatinated by `,`)</p>
+                    <p>wall  : String (numbers concatinated by `,` and `|`)
+                </div>
+            </p>
+            Example : /path/a-star?size=10&start=4,1&end=6,7&wall=4,4|5,4|6,4</code>
+            </div>
+        </div>
             </code></p>
-       <div class="container">
+       <!-- <div class="container">
         <p>
         </p>
-        </div>
+        </div> -->
             <a href="/path/a-star?size=10&start=4,1&end=6,7&wall=4,4|5,4|6,4" target="_blank" class="btn btn-info" role="button">Try now</a>
             <br>
             <br>
             <br>
-            <br>
-            <br>
-            <br>
-        <img src="http://www.ibm.com/developerworks/i/bluemix_icon_poweredbysmall.png">
+            
+            <img src="images/bluemix_logo.png">
         </div>
         
 
@@ -72,7 +70,7 @@
     
               <button id="find-path" class="btn btn-info" onclick="drawPath()">Find Path</button>
           <br />
-            <script src="js/pathfinder.js"></script>
+            <script src="js/pathfinder.js"></script></p>
         </div>
     </div>
 

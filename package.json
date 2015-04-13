@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/pasupulaphani/A-Star-search-algorithm",
   "dependencies": {
-    "bootstrap": "^3.3.4",
     "cfenv": "1.0.x",
     "express": "4.12.x",
     "underscore": "^1.6.0"

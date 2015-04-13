@@ -1,0 +1,23 @@
+{
+  "name": "A-Star-search-algorithm",
+  "version": "0.0.0",
+  "homepage": "https://github.com/pasupulaphani/A-Star-search-algorithm",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "a*",
+    "path-finder"
+  ],
+  "authors": [
+    "pasupulaphani"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
