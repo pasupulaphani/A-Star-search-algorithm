@@ -3,6 +3,8 @@ A-Star-search-algorithm
 
 This is a simple nodeJs implementation of A* algorithm
 
+API and DEMO : http://path-finder.eu-gb.mybluemix.net/
+
 Find the [rhino](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/JavaScript_Compiler) compatible version under rhino branch
 
 -----------------------
